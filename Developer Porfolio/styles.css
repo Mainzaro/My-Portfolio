@@ -1,0 +1,99 @@
+body {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  color: #EEFBFB;
+  font-size: 3rem;
+  position: relative;
+
+}
+
+h2 {
+  font-size: 6rem;
+  position: relative;
+  bottom: 50px;
+}
+
+a.btn {
+  margin: 3%;
+}
+
+.featuresRow img {
+  margin: 10px 10px 20px;
+}
+
+.name {
+  color: #007CC7;
+  font-size: 5rem
+}
+
+.black-section {
+  background-color: #203647;
+}
+
+.colored-section {
+  background-color: #EEFBFB;
+}
+
+/* Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB */
+/* #title .container-fluid{
+  padding: 3% 15% 7%;
+} */
+/* SECTION TITLE */
+.container-fluid {
+  padding: 9% 15%;
+}
+
+.navbar {}
+
+li {
+  font-size: 1.5rem;
+}
+
+
+
+.button-work {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 10px 80px
+}
+
+
+/* ANIMATIONS */
+.title-r {
+  padding-top: 7%;
+  transform: translate(0);
+  transition: transform 1000ms;
+  right: 1146px;
+}
+
+
+.title-l {
+  padding-bottom: 7%;
+  transform: translate(0,0);
+  transition: transform 1000ms;
+  left: 1146px;
+}
+
+.title-r.animation-R {
+  transform: translate(1146px);
+}
+
+.animation-L {
+  transform: translate(-1146px);
+}
+
+/* JAVASCRIPT */
+.hover{
+  background-color:gold;
+}
